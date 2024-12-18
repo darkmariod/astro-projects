@@ -1,0 +1,28 @@
+---
+  const familiaImg = '/images/familia.jpg';
+  const empresaImg = '/images/empresa.jpg';
+  const defensaImg = '/images/defensa-penal.jpg';
+---
+
+<section class="py-16 bg-white">
+  <div class="container mx-auto px-6 text-gray-800">
+    <h2 class="text-4xl font-bold mb-4">Nuestros Servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="p-6 bg-gray-50 rounded-lg shadow-lg">
+        <img src={familiaImg} alt="Derecho Familiar" class="w-full h-40 object-cover rounded-lg mb-4" />
+        <h3 class="text-2xl font-semibold">Derecho Familiar</h3>
+        <p class="mt-2">Asesoría legal en divorcios, custodia de menores y adopciones.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-lg shadow-lg">
+        <img src={empresaImg} alt="Derecho Corporativo" class="w-full h-40 object-cover rounded-lg mb-4" />
+        <h3 class="text-2xl font-semibold">Derecho Corporativo</h3>
+        <p class="mt-2">Asesoría en la creación y gestión de empresas, resolución de conflictos.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-lg shadow-lg">
+        <img src={defensaImg} alt="Defensa Penal" class="w-full h-40 object-cover rounded-lg mb-4" />
+        <h3 class="text-2xl font-semibold">Defensa Penal</h3>
+        <p class="mt-2">Defensa en procesos penales con un enfoque estratégico y profesional.</p>
+      </div>
+    </div>
+  </div>
+</section>
